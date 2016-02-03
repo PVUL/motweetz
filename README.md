@@ -1,2 +1,2 @@
 # [motweetz](http://motweetz.herokuapp.com)
-a yotweetz inspired app
+a [yotweetz](http://github.com/PVUL/yotweetz) inspired app
