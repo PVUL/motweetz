@@ -1,5 +1,10 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  div.row.text-center
+    div.col-xs-4.col-xs-offset-4
+      h1
+        a(href='/')= title
+      form(action, method="POST")
+        input.form-control.text-center(type="text", name="#", placeholder="@mohandle", required)
+        input.form-control.btn.btn-primary(type="submit", value="Get Tweets")
